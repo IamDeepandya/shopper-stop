@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@800&family=Oswald&family=Poppins:wght@300&family=Varela+Round&family=Fira+Sans&family=Roboto&display=swap');
+
+
+
+:root {
+    --font-fam-roboto: 'Roboto', sans-serif;
+    --font-fam-poppins: 'Poppins', sans-serif;
+    --font-fam-varela: 'Varela Round', sans-serif;
+    --font-fam-algreya: 'Alegreya SC', serif;
+    --font-fam-fira: 'Fira Sans', sans-serif;
+    --bs-1: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    --main-color: #720e9e;
+    --secondary-color: #800080;
+    --white-color: #ffffff;
+    --bg-white: #ffffff;
+    --main-bgcolor: #8a2be2;
+    --secondary-bgcolor: #800080;
+}
+
+.font-fam-roboto {
+    font-family: var(--font-fam-roboto);
+}
+
+.font-fam-poppins {
+    font-family: var(--font-fam-poppins);
+}
+
+.font-fam-varela {
+    font-family: var(--font-fam-varela);
+}
+
+.font-fam-fira {
+    font-family: var(--font-fam-fira);
+}
+
+.font-fam-algreya {
+    font-family: var(--font-fam-algreya);
+}
+
+/* box shadow properties */
+
+
+.bs-1 {
+    box-shadow: var(--bs-1);
+}
+
+/* Active class  */
+
+.active {
+    border-bottom: 3px solid var(--white-color);
+}
+
+/* Border properties */
+
+.border-r-1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.border-r-2 {
+    border-radius: 10px;
+}
+
+/* Color properties */
+
+.main-color {
+    color: var(--main-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+/* Background-Color properties */
+
+.bg-main {
+    background-color: var(--main-bgcolor);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-bgcolor);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+.icon-hover:hover{
+    color: rgb(215, 215, 215);
+}
+
+
+
+/* image properites of product */
+
+.productImgSet {
+    /* width: 60%; */
+    margin: auto;
+    height: 30vh;
+}
+
+/* button properties */
+
+.button-34 {
+    background: none;
+    border-radius: 4px;
+    margin-left: -10px;
+    box-sizing: border-box;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 2px solid #5E5DF0;
+}
+
+.button-34:hover {
+    background-color: #5E5DF0;
+    color: #FFFFFF;
+}
+
+.basic-loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  .checkbox-wrapper-3 input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+  }
+
+  .checkbox-wrapper-3 .toggle {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+  }
+  .checkbox-wrapper-3 .toggle:before {
+    content: "";
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 14px;
+    display: block;
+    background: #9A9999;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  .checkbox-wrapper-3 .toggle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+    transition: all 0.2s ease;
+  }
+  .checkbox-wrapper-3 .toggle span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: -18px;
+    width: 56px;
+    height: 56px;
+    background: rgba(79, 46, 220, 0.5);
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .checkbox-wrapper-3 #cbx-3:checked + .toggle:before {
+    background: #ffffff;
+  }
+  .checkbox-wrapper-3 #cbx-3:checked + .toggle span {
+    background: #4F2EDC;
+    transform: translateX(20px);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  .checkbox-wrapper-3 #cbx-3:checked + .toggle span:before {
+    transform: scale(1);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+
+
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #4f10ad;
+}
+
+.menu {
+    display: none !important;
+}
+
+@media screen and (max-width: 440px) {
+    .flex-col-sm {
+        flex-direction: column !important;
+    }
+
+    .m-set {
+        margin-bottom: 40px !important;
+    }
+
+    .h-set {
+        font-size: 20px;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: block !important;
+        position: absolute;
+        margin: 25px 0;
+        right: 0;
+    }
+
+    .nav,
+    .button-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .flex-set-col{
+        flex-direction: column;
+    }
+    .d-block{
+        display: block!important;
+        width: 100%!important;
+    }
+}
+
+/* Dark mode and light mode setting up */
+
+.mode-dark{
+    background-color: #121212;
+    color:white;
+}
+
+.navbar-light{
+    background: #667eea;
+    color: white;
+}
+.navbar-dark{
+    background-color: rgb(24 24 27);;
+    color:white;
+}
+
+.modal-mode-dark{
+    background-color: #363636;
+    color:white;
+}
+
+.modal-mode-light{
+    background-color: rgb(243 244 246);
+    color:grey;
+}
+
+.bg-dark{
+    background-color: #121212;
+}
+
+.text-dark{
+    color:white;
+}
+
+.text-light{
+    color:rgb(66, 66, 66);
+}
+
+.mode-light{
+    background-color: white;
+    color:rgb(66, 66, 66);
+}
