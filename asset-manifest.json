@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shopper-stop/static/css/main.372afbb4.css",
+    "main.js": "/shopper-stop/static/js/main.d009349f.js",
+    "static/media/designer.jpg": "/shopper-stop/static/media/designer.d84c00842253cf2c7fa2.jpg",
+    "static/media/heroImg.jpeg": "/shopper-stop/static/media/heroImg.5baac8a693be87b2a7e1.jpeg",
+    "static/media/brandImg.jpeg": "/shopper-stop/static/media/brandImg.55a77f6900327c7e78b0.jpeg",
+    "static/media/developer.jpg": "/shopper-stop/static/media/developer.f157f7b7ae3f58ab2b37.jpg",
+    "index.html": "/shopper-stop/index.html",
+    "main.372afbb4.css.map": "/shopper-stop/static/css/main.372afbb4.css.map",
+    "main.d009349f.js.map": "/shopper-stop/static/js/main.d009349f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.372afbb4.css",
+    "static/js/main.d009349f.js"
+  ]
+}
