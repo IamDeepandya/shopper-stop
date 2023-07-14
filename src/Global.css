@@ -50,6 +50,10 @@
     border-bottom: 3px solid var(--white-color);
 }
 
+.active-link-hover:hover{
+    border-bottom: 3px solid var(--white-color);
+}
+
 /* Border properties */
 
 .border-r-1 {
